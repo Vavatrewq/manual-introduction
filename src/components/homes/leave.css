@@ -1,0 +1,71 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body, head {
+  font-size: 100%;
+}
+
+.body-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  width: 50%;
+  height: 100vh;
+}
+
+.body-right, .show-content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: blue;
+  width: 50%;
+  height: 100vh;
+  float: right;
+}
+
+.show-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.title-text{
+  color: #ffff;
+  font-size:50px;
+  text-align: center;
+  margin-top: 50px;
+  max-width: 300px;
+}
+
+.space-top{
+  margin-top: 50px;
+}
+
+.show-text{
+  text-align: center;
+  color: #ffff;
+  margin-top: 50px;
+}
+
+.img_book{
+  height: 40%;
+}
+
+.logo_fap{
+  margin-top: 30px;
+}
+
+.student-authors{
+  display: grid;
+  grid-template: auto auto auto / auto auto;
+}
+
+li{
+  margin: 10px;
+}
