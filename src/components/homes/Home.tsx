@@ -50,8 +50,18 @@ export function Home(): JSX.Element {
         <div className="element-block">
           <span className="block-page"></span>
         </div>
-        <img className="img_book" src={icon_book} alt="img_book" />
-        <h1 className="title-text">Informática Básica Online - Manual</h1>
+
+        <div className="body-content">
+          <div className="element-circleTwo">
+            <span className="circle-page"></span>
+          </div>
+          <div className="element-circleOne">
+            <span className="circle-page"></span>
+          </div>
+
+          <h1 className="title-text">Informática Básica Online - Manual</h1>
+          <img className="img_book" src={icon_book} alt="img_book" />
+        </div>
       </section>
     </>
   )

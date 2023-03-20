@@ -40,7 +40,7 @@ body, head {
   color: #ffff;
   font-size:200%;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 450px;
   max-width: 300px;
 }
 
@@ -54,8 +54,9 @@ body, head {
   margin-top: 50px;
 }
 
-.img_book{
-  height: 30%;
+.img_book,.title-text{
+  position: fixed;
+  height: 12rem;
 }
 
 .logo_fap{
@@ -73,6 +74,16 @@ li{
 
 /*Body - Element*/
 
+.body-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+}
+
+/*Page Block*/
 .block-page{
   background-color: #0077B6;
   border: #0077B6 solid 1px;
@@ -89,4 +100,21 @@ li{
   align-items: center;
   width: 50vw;
   height: 100vh;
+}
+
+/*page Circle*/
+
+.circle-page{
+  background-color: #0077B6;
+  border: #0077B6 solid 1px;
+  border-radius: 50%;
+  padding: 70px;
+}
+
+.element-circleOne{
+  margin: 100px 150px 0px 0px;
+}
+
+.element-circleTwo{
+  margin: 0px 0px 50px 150px;
 }
