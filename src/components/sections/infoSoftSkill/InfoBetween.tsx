@@ -1,17 +1,17 @@
-import React, { useState } from 'react'
-import icon_book from 'src/assets/icons/icon_book.png'
+import { useState } from 'react'
+import icon_win from 'src/assets/icons/trophy.png'
 import icon_fap from 'src/assets/icons/fap-logo.png'
 import { Home } from 'src/components/homes/Home'
 import Fap_logo from 'src/assets/icons/fap-logo.png'
 import Generic_img from 'src/assets/img/Screen_Shot3.webp'
 import { SecondLevel, StartLevel, ThirdLevel } from '../InfoPage'
 
-export function InfoStartFirst(): JSX.Element {
+export function InfoBetweenFirst(): JSX.Element {
   const [infoSecond, setInfoSecond] = useState(false)
   const [infoHome, setInfoHome] = useState(false)
 
   if (infoHome) return <Home />
-  if (infoSecond) return <InfoStartSecond />
+  if (infoSecond) return <InfoBetweenSecond />
 
   return (
     <>
@@ -69,15 +69,19 @@ export function InfoStartFirst(): JSX.Element {
   )
 }
 
-export function InfoStartSecond(): JSX.Element {
+export function InfoBetweenSecond(): JSX.Element {
   const [infoThird, setInfoThird] = useState(false)
   const [infoFirst, setInfoFirst] = useState(false)
 
-  if (infoFirst) return <InfoStartFirst />
-  if (infoThird) return <InfoStartThird />
+  if (infoFirst) return <InfoBetweenFirst />
+  if (infoThird) return <InfoBetweenThird />
 
   return (
     <>
+      <header>
+        <img className="typeLogo-fap" src={Fap_logo} alt="logo-fap" />
+        <h1 className="title-page">Iniciante</h1>
+      </header>
       <div className="content-info">
         <section>
           <img className="show-img" src={Generic_img} alt="info_first" />
@@ -128,15 +132,19 @@ export function InfoStartSecond(): JSX.Element {
   )
 }
 
-export function InfoStartThird(): JSX.Element {
-  const [infoThird, setInfoThird] = useState(false)
+export function InfoBetweenThird(): JSX.Element {
+  const [infoSecond, setInfoSecond] = useState(false)
   const [infoFourth, setInfoFourth] = useState(false)
 
-  if (infoThird) return <InfoStartThird />
-  if (infoFourth) return <InfoStartFourth />
+  if (infoSecond) return <InfoBetweenSecond />
+  if (infoFourth) return <InfoBetweenFourth />
 
   return (
     <>
+      <header>
+        <img className="typeLogo-fap" src={Fap_logo} alt="logo-fap" />
+        <h1 className="title-page">Iniciante</h1>
+      </header>
       <div className="content-info">
         <section>
           <img className="show-img" src={Generic_img} alt="info_first" />
@@ -176,7 +184,7 @@ export function InfoStartThird(): JSX.Element {
         </section>
       </div>
       <div className="btn-page">
-        <button className="btn" onClick={() => setInfoThird(true)}>
+        <button className="btn" onClick={() => setInfoSecond(true)}>
           Voltar
         </button>
         <button className="btn" onClick={() => setInfoFourth(true)}>
@@ -187,15 +195,19 @@ export function InfoStartThird(): JSX.Element {
   )
 }
 
-export function InfoStartFourth(): JSX.Element {
-  const [infoFourth, setInfoFourth] = useState(false)
+export function InfoBetweenFourth(): JSX.Element {
+  const [infoThird, setInfoThird] = useState(false)
   const [infoFifth, setInfoFifth] = useState(false)
 
-  if (infoFourth) return <InfoStartFourth />
-  if (infoFifth) return <InfoStartFifth />
+  if (infoThird) return <InfoBetweenThird />
+  if (infoFifth) return <InfoBetweenFifth />
 
   return (
     <>
+      <header>
+        <img className="typeLogo-fap" src={Fap_logo} alt="logo-fap" />
+        <h1 className="title-page">Iniciante</h1>
+      </header>
       <div className="content-info">
         <section>
           <img className="show-img" src={Generic_img} alt="info_first" />
@@ -235,7 +247,7 @@ export function InfoStartFourth(): JSX.Element {
         </section>
       </div>
       <div className="btn-page">
-        <button className="btn" onClick={() => setInfoFourth(true)}>
+        <button className="btn" onClick={() => setInfoThird(true)}>
           Voltar
         </button>
         <button className="btn" onClick={() => setInfoFifth(true)}>
@@ -246,15 +258,19 @@ export function InfoStartFourth(): JSX.Element {
   )
 }
 
-export function InfoStartFifth(): JSX.Element {
-  const [infoFifth, setInfoFifth] = useState(false)
+export function InfoBetweenFifth(): JSX.Element {
+  const [infoFourth, setInfoFourth] = useState(false)
   const [infoFinished, setFinished] = useState(false)
 
-  if (infoFifth) return <InfoStartFifth />
-  if (infoFinished) return <InfoStartFinished />
+  if (infoFourth) return <InfoBetweenFourth />
+  if (infoFinished) return <InfoBetweenFinished />
 
   return (
     <>
+      <header>
+        <img className="typeLogo-fap" src={Fap_logo} alt="logo-fap" />
+        <h1 className="title-page">Iniciante</h1>
+      </header>
       <div className="content-info">
         <section>
           <img className="show-img" src={Generic_img} alt="info_first" />
@@ -294,7 +310,7 @@ export function InfoStartFifth(): JSX.Element {
         </section>
       </div>
       <div className="btn-page">
-        <button className="btn" onClick={() => setInfoFifth(true)}>
+        <button className="btn" onClick={() => setInfoFourth(true)}>
           Voltar
         </button>
         <button className="btn" onClick={() => setFinished(true)}>
@@ -305,7 +321,7 @@ export function InfoStartFifth(): JSX.Element {
   )
 }
 
-export function InfoStartFinished(): JSX.Element {
+export function InfoBetweenFinished(): JSX.Element {
   const [infoPageStart, setInfopageStart] = useState(false)
   const [infoPageSecond, setInfopageSecond] = useState(false)
   const [infoPageThird, setInfopageThird] = useState(false)
@@ -323,10 +339,8 @@ export function InfoStartFinished(): JSX.Element {
           <img className="logo_fap space-top" src={icon_fap} alt="logo_fap" />
 
           <p className="show-text space-top">
-            Esse projeto foi pensado para cumprir com dever de ensinar pessoas
-            com dificuldades em informática básica. Portanto nos alunos da FAP
-            oferecemos um manual básico e selecionamos níveis de experiencia
-            para cada um.
+            Nossas opções estarão disponíveis mesmo que você termina (iniciante,
+            intermediário, avançado), de Informática Básica Online – Manual.
           </p>
 
           <div className="show-btn space-top">
@@ -347,8 +361,11 @@ export function InfoStartFinished(): JSX.Element {
         </div>
       </section>
       <section className="body-left">
-        <img className="img_book" src={icon_book} alt="img_book" />
-        <h1 className="title-text">Informática Básica Online - Manual</h1>
+        <img className="img_book space-top" src={icon_win} alt="img_book" />
+        <h1 className="title-text">
+          Parabéns você terminou a parte: Intermediário - Informática Básica
+          Online - Manual
+        </h1>
       </section>
     </>
   )
