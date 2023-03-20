@@ -5,6 +5,7 @@ import { Home } from 'src/components/homes/Home'
 import Fap_logo from 'src/assets/icons/fap-logo.png'
 import Generic_img from 'src/assets/img/Screen_Shot3.webp'
 import { SecondLevel, StartLevel, ThirdLevel } from '../InfoPage'
+import '../infoPage.css'
 
 export function InfoStartFirst(): JSX.Element {
   const [infoSecond, setInfoSecond] = useState(false)
@@ -29,7 +30,7 @@ export function InfoStartFirst(): JSX.Element {
             pariatur earum saepe!
           </p>
         </section>
-        <section>
+        <section className="infoPage">
           <img className="show-img" src={Generic_img} alt="info_first" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quis
@@ -38,7 +39,7 @@ export function InfoStartFirst(): JSX.Element {
             saepe!
           </p>
         </section>
-        <section>
+        <section className="infoPage">
           <img className="show-img" src={Generic_img} alt="info_first" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quis
@@ -47,7 +48,7 @@ export function InfoStartFirst(): JSX.Element {
             saepe!
           </p>
         </section>
-        <section>
+        <section className="infoPage">
           <img className="show-img" src={Generic_img} alt="info_first" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quis
@@ -83,7 +84,7 @@ export function InfoStartSecond(): JSX.Element {
         <h1 className="title-page">Iniciante</h1>
       </header>
       <div className="content-info">
-        <section>
+        <section className="infoPage">
           <img className="show-img" src={Generic_img} alt="info_first" />
           <p>
             Lorem ###2 ipsum dolor sit amet consectetur adipisicing elit. Ipsum
@@ -92,7 +93,7 @@ export function InfoStartSecond(): JSX.Element {
             pariatur earum saepe!
           </p>
         </section>
-        <section>
+        <section className="infoPage">
           <img className="show-img" src={Generic_img} alt="info_first" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quis
@@ -101,7 +102,7 @@ export function InfoStartSecond(): JSX.Element {
             saepe!
           </p>
         </section>
-        <section>
+        <section className="infoPage">
           <img className="show-img" src={Generic_img} alt="info_first" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quis
@@ -110,7 +111,7 @@ export function InfoStartSecond(): JSX.Element {
             saepe!
           </p>
         </section>
-        <section>
+        <section className="infoPage">
           <img className="show-img" src={Generic_img} alt="info_first" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quis
@@ -146,7 +147,7 @@ export function InfoStartThird(): JSX.Element {
         <h1 className="title-page">Iniciante</h1>
       </header>
       <div className="content-info">
-        <section>
+        <section className="infoPage">
           <img className="show-img" src={Generic_img} alt="info_first" />
           <p>
             Lorem ###3 ipsum dolor sit amet consectetur adipisicing elit. Ipsum
@@ -155,7 +156,7 @@ export function InfoStartThird(): JSX.Element {
             pariatur earum saepe!
           </p>
         </section>
-        <section>
+        <section className="infoPage">
           <img className="show-img" src={Generic_img} alt="info_first" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quis
@@ -164,7 +165,7 @@ export function InfoStartThird(): JSX.Element {
             saepe!
           </p>
         </section>
-        <section>
+        <section className="infoPage">
           <img className="show-img" src={Generic_img} alt="info_first" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quis
@@ -173,7 +174,7 @@ export function InfoStartThird(): JSX.Element {
             saepe!
           </p>
         </section>
-        <section>
+        <section className="infoPage">
           <img className="show-img" src={Generic_img} alt="info_first" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quis
@@ -209,7 +210,7 @@ export function InfoStartFourth(): JSX.Element {
         <h1 className="title-page">Iniciante</h1>
       </header>
       <div className="content-info">
-        <section>
+        <section className="infoPage">
           <img className="show-img" src={Generic_img} alt="info_first" />
           <p>
             Lorem ###4 ipsum dolor sit amet consectetur adipisicing elit. Ipsum
@@ -218,7 +219,7 @@ export function InfoStartFourth(): JSX.Element {
             pariatur earum saepe!
           </p>
         </section>
-        <section>
+        <section className="infoPage">
           <img className="show-img" src={Generic_img} alt="info_first" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quis
@@ -227,7 +228,7 @@ export function InfoStartFourth(): JSX.Element {
             saepe!
           </p>
         </section>
-        <section>
+        <section className="infoPage">
           <img className="show-img" src={Generic_img} alt="info_first" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quis
@@ -236,7 +237,7 @@ export function InfoStartFourth(): JSX.Element {
             saepe!
           </p>
         </section>
-        <section>
+        <section className="infoPage">
           <img className="show-img" src={Generic_img} alt="info_first" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quis
@@ -272,7 +273,7 @@ export function InfoStartFifth(): JSX.Element {
         <h1 className="title-page">Iniciante</h1>
       </header>
       <div className="content-info">
-        <section>
+        <section className="infoPage">
           <img className="show-img" src={Generic_img} alt="info_first" />
           <p>
             Lorem ###5 ipsum dolor sit amet consectetur adipisicing elit. Ipsum
@@ -281,7 +282,7 @@ export function InfoStartFifth(): JSX.Element {
             pariatur earum saepe!
           </p>
         </section>
-        <section>
+        <section className="infoPage">
           <img className="show-img" src={Generic_img} alt="info_first" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quis
@@ -290,7 +291,7 @@ export function InfoStartFifth(): JSX.Element {
             saepe!
           </p>
         </section>
-        <section>
+        <section className="infoPage">
           <img className="show-img" src={Generic_img} alt="info_first" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quis
@@ -299,7 +300,7 @@ export function InfoStartFifth(): JSX.Element {
             saepe!
           </p>
         </section>
-        <section>
+        <section className="infoPage">
           <img className="show-img" src={Generic_img} alt="info_first" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quis

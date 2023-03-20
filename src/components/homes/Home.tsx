@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import icon_book from 'src/assets/icons/icon_book.png'
 import icon_fap from 'src/assets/icons/fap-logo.png'
 import { StartLevel, SecondLevel, ThirdLevel } from '../sections/InfoPage'
@@ -24,7 +24,7 @@ export function Home(): JSX.Element {
           <p className="show-text space-top">
             Esse projeto foi pensado para cumprir com dever de ensinar pessoas
             com dificuldades em informática básica. Portanto nos alunos da FAP
-            oferecemos um manual básico e selecionamos níveis de experiencia
+            oferecemos um manual básico, e selecionamos níveis de experiencia
             para cada um.
           </p>
 
@@ -45,6 +45,11 @@ export function Home(): JSX.Element {
           </div>
         </div>
       </section>
+
+      <div className="element-block">
+        <span className="block-page"></span>
+      </div>
+
       <section className="body-left">
         <img className="img_book" src={icon_book} alt="img_book" />
         <h1 className="title-text">Informática Básica Online - Manual</h1>

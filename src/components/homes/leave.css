@@ -5,6 +5,8 @@
 
 body, head {
   font-size: 100%;
+  height: 100vh;
+  width: 100vw;
 }
 
 .body-left{
@@ -12,7 +14,7 @@ body, head {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: red;
+  background-color: #0080C3;
   width: 50%;
   height: 100vh;
 }
@@ -21,7 +23,6 @@ body, head {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: blue;
   width: 50%;
   height: 100vh;
   float: right;
@@ -37,7 +38,7 @@ body, head {
 
 .title-text{
   color: #ffff;
-  font-size:250%;
+  font-size:200%;
   text-align: center;
   margin-top: 50px;
   max-width: 300px;
@@ -49,12 +50,12 @@ body, head {
 
 .show-text{
   text-align: center;
-  color: #ffff;
+  color: #000000;
   margin-top: 50px;
 }
 
 .img_book{
-  height: 40%;
+  height: 30%;
 }
 
 .logo_fap{
@@ -68,4 +69,22 @@ body, head {
 
 li{
   margin: 10px;
+}
+
+/*Body - Element*/
+
+.block-page{
+  background-color: #0077B6;
+  width: 167px;
+  height: 167px;
+}
+
+.element-block{
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  transform: rotate(-135deg);
 }
