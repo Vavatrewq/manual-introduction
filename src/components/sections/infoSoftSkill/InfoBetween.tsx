@@ -362,6 +362,9 @@ export function InfoBetweenFinished(): JSX.Element {
         </div>
       </section>
       <section className="body-left">
+        <div className="element-block">
+          <span className="block-page"></span>
+        </div>
         <img className="img_book space-top" src={icon_win} alt="img_book" />
         <h1 className="title-text">
           Parabéns você terminou a parte: Intermediário - Informática Básica
