@@ -1,0 +1,9 @@
+.btn-page{
+  display: flex;
+  justify-content: right;
+}
+
+.btn{
+  margin: 10px;
+  padding: 10px;
+}

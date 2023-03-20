@@ -1,0 +1,22 @@
+.typeLogo-fap{
+  margin: 10px;
+}
+
+.title-page{
+  text-align: center;
+}
+
+.content-info{
+  display: grid;
+  grid-template: auto auto / auto auto;
+}
+
+.infoPage{
+  max-width: 650px;
+  margin: 10px;
+}
+
+.show-img{
+  float: left;
+  width: 50%;
+}

@@ -1,9 +1,20 @@
-import React from 'react'
-import icon_book from '../../assets/icons/icon_book.png'
-import icon_fap from '../../assets/icons/fap-logo.png'
+import React, { useState } from 'react'
+import icon_book from 'src/assets/icons/icon_book.png'
+import icon_fap from 'src/assets/icons/fap-logo.png'
+import { StartLevel, SecondLevel, ThirdLevel } from '../sections/InfoPage'
 import './leave.css'
 
 export function Home(): JSX.Element {
+  const [infoPageStart, setInfopageStart] = useState(false)
+  const [infoPageSecond, setInfopageSecond] = useState(false)
+  const [infoPageThird, setInfopageThird] = useState(false)
+
+  if (infoPageStart) return <StartLevel />
+
+  if (infoPageSecond) return <SecondLevel />
+
+  if (infoPageThird) return <ThirdLevel />
+
   return (
     <>
       <section className="body-right">
@@ -18,9 +29,9 @@ export function Home(): JSX.Element {
           </p>
 
           <div className="show-btn space-top">
-            <button>exemplo</button>
-            <button>exemplo</button>
-            <button>exemplo</button>
+            <button onClick={() => setInfopageStart(true)}>1exemplo</button>
+            <button onClick={() => setInfopageSecond(true)}>2exemplo</button>
+            <button onClick={() => setInfopageThird(true)}>exemplo</button>
           </div>
 
           <div className="space-top">
