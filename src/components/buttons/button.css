@@ -7,3 +7,40 @@
   margin: 10px;
   padding: 10px;
 }
+
+/*BTN - Home*/
+
+.btn-circle{
+  width: 90px;
+  height: 90px;
+  background-size: contain;
+  border-radius: 50%;
+  border: none;
+  border: #0077B6 solid 1px;
+  cursor: pointer;
+  margin: 0px 5px 0px 0px;
+  background-color: #9fd5f3;
+
+}
+
+.btn-start{
+  background-image: url(../../assets/icons/graduated.png);
+}
+
+.btn-between{
+  background-image: url(../../assets/icons/inspiration.png);
+}
+
+.btn-third{
+  background-image: url(../../assets/icons/ability.png);
+}
+
+.show-btn{
+  display: flex;
+}
+
+.box-btn{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}

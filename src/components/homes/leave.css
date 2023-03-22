@@ -1,12 +1,6 @@
 *{
-  padding: 0;
-  margin: 0;
-}
-
-body, head {
-  font-size: 100%;
-  height: 100vh;
-  width: 100vw;
+  padding: 0px;
+  margin: 0px;
 }
 
 .body-left{
@@ -14,9 +8,9 @@ body, head {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #0080C3;
   width: 50%;
-  height: 100vh;
+  float: left;
+  background-color: #0080C3;
 }
 
 .body-right, .show-content{
@@ -25,7 +19,6 @@ body, head {
   flex-direction: column;
   width: 50%;
   height: 100vh;
-  float: right;
 }
 
 .show-content{
@@ -40,12 +33,16 @@ body, head {
   color: #ffff;
   font-size:200%;
   text-align: center;
-  margin-top: 450px;
+  margin-top: 500px;
   max-width: 300px;
 }
 
 .space-top{
   margin-top: 50px;
+}
+
+.show-text-start{
+  display: none;
 }
 
 .show-text{
@@ -56,11 +53,15 @@ body, head {
 
 .img_book,.title-text{
   position: fixed;
-  height: 12rem;
+  height: 15rem;
 }
 
 .logo_fap{
   margin-top: 30px;
+}
+
+.logo_fap-top{
+  display: none;
 }
 
 .student-authors{
@@ -69,6 +70,8 @@ body, head {
 }
 
 li{
+  list-style: none;
+  cursor: grab;
   margin: 10px;
 }
 
@@ -91,15 +94,17 @@ li{
   transform: rotate(-135deg);
 }
 
+.element-block-botton{
+  display: none;
+}
+
 .element-block{
-  position: fixed;
+  position: absolute;
   display: flex;
-  left: 120px;
-  transform: translate(-50px);
-  justify-content: right;
+  margin-left: 140px;
+  justify-content: end;
   align-items: center;
-  width: 50vw;
-  height: 100vh;
+  width: 50%;
 }
 
 /*page Circle*/

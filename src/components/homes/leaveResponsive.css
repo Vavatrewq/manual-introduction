@@ -1,0 +1,138 @@
+
+@media only screen and (max-width:1100px) {
+  .block-page{
+    padding: 50px;
+  }
+
+  .element-block{
+    margin-left: 100px;
+  }
+
+  .show-text{
+    margin-top: 0px;
+  }
+
+  .img_book,.title-text{
+    position: fixed;
+    height: 15rem;
+  }
+
+  .logo_fap{
+    margin-top: 30px;
+  }
+
+  .space-top{
+    margin-top: 10%;
+  }
+
+
+  .student-authors{
+    display: flex;
+  }
+
+
+}
+
+@media only screen and (max-width:600px) {
+
+
+  .body-left{
+    width: 100%;
+    height: auto;
+    background-color: #0080C3;
+    float: none;
+  }
+
+  .body-right, .show-content{
+    width: 100%;
+    height: auto;
+  }
+
+  .title-text{
+    margin: 50px 0px 0px 0px;
+  }
+
+  .space-top{
+    margin-top: 50px;
+  }
+
+  .show-text-start{
+    display: block;
+    text-align: center;
+    max-width: 300px;
+    color: #ffff;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px 0px 25px 0px;
+  }
+
+  .show-text{
+    display: none;
+  }
+
+  .img_book,.title-text{
+    position: static;
+    height: 50%;
+  }
+
+  .logo_fap-top{
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .logo_fap{
+    display: none;
+
+  }
+
+  .btn-circle{
+    margin: 50px 5px 0px 0px;
+  }
+
+  .student-authors{
+    display: grid;
+    grid-template: auto auto auto / auto auto;
+  }
+
+  li{
+    list-style: none;
+    cursor: e-resize;
+    margin: 10px;
+  }
+
+  /*Body - Element*/
+
+  .element-circleTwo{
+    display: none;
+  }
+
+  .element-circleOne{
+    display: none;
+  }
+
+  .element-block-botton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20% 0 0 0;
+    height: 0px;
+  }
+
+  .element-block{
+    display: none;
+  }
+
+  /*page Circle*/
+
+  .circle-page{
+    display: none;
+  }
+
+}
+
+@media only screen and (max-height:600px) {
+  .show-text-start{
+    margin: 50px 0px 50px 0px;
+  }
+}
+
