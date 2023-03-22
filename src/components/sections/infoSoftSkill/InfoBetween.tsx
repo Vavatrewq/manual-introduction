@@ -62,12 +62,16 @@ export function InfoBetweenFirst(): JSX.Element {
         </section>
       </div>
       <div className="btn-page">
-        <button className="btn" onClick={() => setInfoHome(true)}>
-          Voltar
-        </button>
-        <button className="btn" onClick={() => setInfoSecond(true)}>
-          Próximo
-        </button>
+        <a href="#">
+          <button className="btn" onClick={() => setInfoHome(true)}>
+            Voltar
+          </button>
+        </a>
+        <a href="#">
+          <button className="btn" onClick={() => setInfoSecond(true)}>
+            Próximo
+          </button>
+        </a>
       </div>
     </>
   )
@@ -125,12 +129,16 @@ export function InfoBetweenSecond(): JSX.Element {
         </section>
       </div>
       <div className="btn-page">
-        <button className="btn" onClick={() => setInfoFirst(true)}>
-          Voltar
-        </button>
-        <button className="btn" onClick={() => setInfoThird(true)}>
-          Próximo
-        </button>
+        <a href="#">
+          <button className="btn" onClick={() => setInfoFirst(true)}>
+            Voltar
+          </button>
+        </a>
+        <a href="#">
+          <button className="btn" onClick={() => setInfoThird(true)}>
+            Próximo
+          </button>
+        </a>
       </div>
     </>
   )
@@ -188,12 +196,16 @@ export function InfoBetweenThird(): JSX.Element {
         </section>
       </div>
       <div className="btn-page">
-        <button className="btn" onClick={() => setInfoSecond(true)}>
-          Voltar
-        </button>
-        <button className="btn" onClick={() => setInfoFourth(true)}>
-          Próximo
-        </button>
+        <a href="#">
+          <button className="btn" onClick={() => setInfoSecond(true)}>
+            Voltar
+          </button>
+        </a>
+        <a href="#">
+          <button className="btn" onClick={() => setInfoFourth(true)}>
+            Próximo
+          </button>
+        </a>
       </div>
     </>
   )
@@ -251,12 +263,16 @@ export function InfoBetweenFourth(): JSX.Element {
         </section>
       </div>
       <div className="btn-page">
-        <button className="btn" onClick={() => setInfoThird(true)}>
-          Voltar
-        </button>
-        <button className="btn" onClick={() => setInfoFifth(true)}>
-          Próximo
-        </button>
+        <a href="#">
+          <button className="btn" onClick={() => setInfoThird(true)}>
+            Voltar
+          </button>
+        </a>
+        <a href="#">
+          <button className="btn" onClick={() => setInfoFifth(true)}>
+            Próximo
+          </button>
+        </a>
       </div>
     </>
   )
@@ -314,12 +330,16 @@ export function InfoBetweenFifth(): JSX.Element {
         </section>
       </div>
       <div className="btn-page">
-        <button className="btn" onClick={() => setInfoFourth(true)}>
-          Voltar
-        </button>
-        <button className="btn" onClick={() => setFinished(true)}>
-          Próximo
-        </button>
+        <a href="#">
+          <button className="btn" onClick={() => setInfoFourth(true)}>
+            Voltar
+          </button>
+        </a>
+        <a href="#">
+          <button className="btn" onClick={() => setFinished(true)}>
+            Próximo
+          </button>
+        </a>
       </div>
     </>
   )
@@ -381,25 +401,31 @@ export function InfoBetweenFinished(): JSX.Element {
 
           <div className="show-btn space-top">
             <p className="box-btn">
-              <button
-                className="btn-start btn-circle"
-                onClick={() => setInfopageStart(true)}
-              ></button>
-              Intermediário
+              <a href="#">
+                <button
+                  className="btn-start btn-circle"
+                  onClick={() => setInfopageStart(true)}
+                ></button>
+                Intermediário
+              </a>
             </p>
             <p className="box-btn">
-              <button
-                className="btn-between btn-circle"
-                onClick={() => setInfopageSecond(true)}
-              ></button>
-              Intermediário
+              <a href="#">
+                <button
+                  className="btn-between btn-circle"
+                  onClick={() => setInfopageSecond(true)}
+                ></button>
+                Intermediário
+              </a>
             </p>
             <p className="box-btn">
-              <button
-                className="btn-third btn-circle"
-                onClick={() => setInfopageThird(true)}
-              ></button>
-              Avançado
+              <a href="#">
+                <button
+                  className="btn-third btn-circle"
+                  onClick={() => setInfopageThird(true)}
+                ></button>
+                Avançado
+              </a>
             </p>
           </div>
 
