@@ -62,25 +62,31 @@ export function Home(): JSX.Element {
 
           <div className="show-btn space-top">
             <p className="box-btn">
-              <button
-                className="btn-start btn-circle"
-                onClick={() => setInfopageStart(true)}
-              ></button>
-              Iniciante
+              <a href="#">
+                <button
+                  className="btn-start btn-circle"
+                  onClick={() => setInfopageStart(true)}
+                ></button>
+                Iniciante
+              </a>
             </p>
             <p className="box-btn">
-              <button
-                className="btn-between btn-circle"
-                onClick={() => setInfopageSecond(true)}
-              ></button>
-              Intermediário
+              <a href="#">
+                <button
+                  className="btn-between btn-circle"
+                  onClick={() => setInfopageSecond(true)}
+                ></button>
+                Intermediário
+              </a>
             </p>
             <p className="box-btn">
-              <button
-                className="btn-third btn-circle"
-                onClick={() => setInfopageThird(true)}
-              ></button>
-              Avançado
+              <a href="#">
+                <button
+                  className="btn-third btn-circle"
+                  onClick={() => setInfopageThird(true)}
+                ></button>
+                Avançado
+              </a>
             </p>
           </div>
 

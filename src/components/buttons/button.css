@@ -61,9 +61,16 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+
+/*Tag - Links*/
+
+a{
+  text-decoration: none;
+  color: #000000;
   transition: 300ms;
 }
 
-.box-btn:hover{
-  color: #0077B6;
+a:hover{
+  color:#0077B6;
 }

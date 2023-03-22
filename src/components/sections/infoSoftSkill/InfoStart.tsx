@@ -60,12 +60,16 @@ export function InfoStartFirst(): JSX.Element {
         </section>
       </div>
       <div className="btn-page">
-        <button className="btn" onClick={() => setInfoHome(true)}>
-          Voltar
-        </button>
-        <button className="btn" onClick={() => setInfoSecond(true)}>
-          Próximo
-        </button>
+        <a href="#">
+          <button className="btn" onClick={() => setInfoHome(true)}>
+            Voltar
+          </button>
+        </a>
+        <a href="#">
+          <button className="btn" onClick={() => setInfoSecond(true)}>
+            Próximo
+          </button>
+        </a>
       </div>
     </>
   )
@@ -123,12 +127,16 @@ export function InfoStartSecond(): JSX.Element {
         </section>
       </div>
       <div className="btn-page">
-        <button className="btn" onClick={() => setInfoFirst(true)}>
-          Voltar
-        </button>
-        <button className="btn" onClick={() => setInfoThird(true)}>
-          Próximo
-        </button>
+        <a href="#">
+          <button className="btn" onClick={() => setInfoFirst(true)}>
+            Voltar
+          </button>
+        </a>
+        <a href="#">
+          <button className="btn" onClick={() => setInfoThird(true)}>
+            Próximo
+          </button>
+        </a>
       </div>
     </>
   )
@@ -186,12 +194,16 @@ export function InfoStartThird(): JSX.Element {
         </section>
       </div>
       <div className="btn-page">
-        <button className="btn" onClick={() => setInfoSecond(true)}>
-          Voltar
-        </button>
-        <button className="btn" onClick={() => setInfoFourth(true)}>
-          Próximo
-        </button>
+        <a href="#">
+          <button className="btn" onClick={() => setInfoSecond(true)}>
+            Voltar
+          </button>
+        </a>
+        <a href="#">
+          <button className="btn" onClick={() => setInfoFourth(true)}>
+            Próximo
+          </button>
+        </a>
       </div>
     </>
   )
@@ -249,12 +261,16 @@ export function InfoStartFourth(): JSX.Element {
         </section>
       </div>
       <div className="btn-page">
-        <button className="btn" onClick={() => setInfoThird(true)}>
-          Voltar
-        </button>
-        <button className="btn" onClick={() => setInfoFifth(true)}>
-          Próximo
-        </button>
+        <a href="#">
+          <button className="btn" onClick={() => setInfoThird(true)}>
+            Voltar
+          </button>
+        </a>
+        <a href="#">
+          <button className="btn" onClick={() => setInfoFifth(true)}>
+            Próximo
+          </button>
+        </a>
       </div>
     </>
   )
@@ -312,12 +328,16 @@ export function InfoStartFifth(): JSX.Element {
         </section>
       </div>
       <div className="btn-page">
-        <button className="btn" onClick={() => setInfoFourth(true)}>
-          Voltar
-        </button>
-        <button className="btn" onClick={() => setFinished(true)}>
-          Próximo
-        </button>
+        <a href="#">
+          <button className="btn" onClick={() => setInfoFourth(true)}>
+            Voltar
+          </button>
+        </a>
+        <a href="#">
+          <button className="btn" onClick={() => setFinished(true)}>
+            Próximo
+          </button>
+        </a>
       </div>
     </>
   )

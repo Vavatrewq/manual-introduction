@@ -50,8 +50,8 @@ button{
     margin-top: 50px;
   }
 
-  .btn-page, .btn{
+  .btn-page, .btn, a{
     margin: 20px 0px 50px 0px;
-    width: 100%;
+    width: 90%;
   }
 }
