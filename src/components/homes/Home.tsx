@@ -32,11 +32,7 @@ export function Home(): JSX.Element {
             <span className="circle-page"></span>
           </div>
 
-          <img
-            className="logo_fap-top space-top"
-            src={icon_fap}
-            alt="logo_fap"
-          />
+          <img className="logo_fap-top" src={icon_fap} alt="logo_fap" />
 
           <img className="img_book" src={icon_book} alt="img_book" />
           <h1 className="title-text">Informática Básica Online - Manual</h1>

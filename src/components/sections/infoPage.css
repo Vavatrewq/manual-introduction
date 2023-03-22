@@ -1,9 +1,14 @@
+button{
+  cursor: pointer;
+}
+
 .typeLogo-fap{
   margin: 10px;
 }
 
 .title-page{
   text-align: center;
+  margin: 50px 0px 0px 0px;
 }
 
 .content-info{
@@ -19,4 +24,34 @@
 .show-img{
   float: left;
   width: 50%;
+}
+
+@media only screen and (max-width:750px) {
+  header{
+    text-align: center;
+  }
+
+  .typeLogo-fap{
+    text-align: center;
+  }
+
+  .content-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .show-img{
+    float: none;
+    width: 100%;
+  }
+  .infoPage{
+    margin-top: 50px;
+  }
+
+  .btn-page, .btn{
+    margin: 20px 0px 50px 0px;
+    width: 100%;
+  }
 }
