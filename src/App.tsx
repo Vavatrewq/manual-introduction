@@ -1,4 +1,4 @@
-import { Home } from './components/homes/Home'
+import { Home } from './components/home/Home'
 
 export default function App(): JSX.Element {
   return (

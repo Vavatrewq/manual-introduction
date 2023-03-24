@@ -1,17 +1,17 @@
-import { InfoStartFirst } from './infoSoftSkill/InfoStart'
-import { InfoBetweenFirst } from './infoSoftSkill/InfoBetween'
-import { InfoThirdFirst } from './infoSoftSkill/InfoThird'
-import './infoPage.css'
-import 'src/components/buttons/button.css'
+import { InfoStartFirst } from './levelConect/InfoStart'
+import { InfoBetweenFirst } from './levelConect/InfoBetween'
+import { InfoThirdFirst } from './levelConect/InfoThird'
+import 'src/css/infoPage.css'
+import 'src/css/button.css'
 
 export function StartLevel(): JSX.Element {
   return <InfoStartFirst />
 }
 
-export function SecondLevel(): JSX.Element {
+export function QuiteLevel(): JSX.Element {
   return <InfoBetweenFirst />
 }
 
-export function ThirdLevel(): JSX.Element {
+export function FinishLevel(): JSX.Element {
   return <InfoThirdFirst />
 }

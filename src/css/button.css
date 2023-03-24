@@ -42,15 +42,15 @@
 }
 
 .btn-start{
-  background-image: url(../../assets/icons/graduated.png);
+  background-image: url(../assets/icons/graduated.png);
 }
 
 .btn-between{
-  background-image: url(../../assets/icons/inspiration.png);
+  background-image: url(../assets/icons/inspiration.png);
 }
 
 .btn-third{
-  background-image: url(../../assets/icons/ability.png);
+  background-image: url(../assets/icons/ability.png);
 }
 
 .show-btn{
@@ -66,6 +66,7 @@
 /*Tag - Links*/
 
 a{
+  background-color: red;
   text-decoration: none;
   color: #000000;
   transition: 300ms;
