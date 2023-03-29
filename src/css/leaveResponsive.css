@@ -8,37 +8,22 @@
     margin-left: 100px;
   }
 
-  .show-text{
-    margin-top: 0px;
-  }
-
-  .img_book,.title-text{
-    position: fixed;
-    height: 15rem;
-  }
-
-  .logo_fap{
-    margin-top: 30px;
-  }
-
-  .space-top{
-    margin-top: 10%;
-  }
-
-
   .student-authors{
     display: flex;
   }
 
+  .btn-circle{
+    height: 50px;
+    width: 50px;
+  }
 
 }
 
 @media only screen and (max-width:750px) {
 
-
   .body-left{
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
     background-color: #0080C3;
     float: none;
   }
@@ -49,8 +34,7 @@
   }
 
   .title-text{
-    margin: 50px 0px 50px 0px;
-    font-size: 40px;
+    margin: auto;
   }
 
   .space-top{
@@ -58,12 +42,11 @@
   }
 
   .show-text-start{
-    display: block;
+    display: flex;
     text-align: center;
     max-width: 300px;
     color: #ffff;
-    padding: 0px;
-    font-size: 25px;
+    padding: 0;
     margin: 0px 0px 25px 0px;
   }
 
@@ -73,20 +56,24 @@
 
   .img_book,.title-text{
     position: static;
-    height: 50%;
   }
 
   .logo_fap-top{
     display: block;
-    margin: 100px 0px 30px 0px;
   }
 
   .logo_fap{
     display: none;
+  }
 
+  /*Esta em revisão*/
+  .show-btn{
+    max-width: 300px;
   }
 
   .btn-circle{
+    height: 50px;
+    width: 50px;
     margin: 50px 5px 0px 0px;
   }
 
@@ -114,8 +101,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20% 0 0 0;
-    height: 0px;
+    margin: auto;
+    height: 0;
   }
 
   .element-block{
@@ -130,6 +117,12 @@
 
 }
 
+@media only screen and (max-width:400px){
+  .element-block-botton{
+    padding-top: 20%;
+  }
+}
+
 @media only screen and (max-height:900px) {
   .img_book{
     height: 40%;
@@ -138,6 +131,10 @@
   .show-text-start{
     margin: 0px 0px 50px 0px;
   }
+
+  .element-block-botton{
+    padding-top: 20%;
+  }
 }
 
 @media only screen and (max-height:600px) {
@@ -145,9 +142,8 @@
     margin: 200px 0px 30px 0px;
   }
 
-  .show-text-start{
-    font-size: 30px;
-    margin: 150px 0px 50px 0px;
+  .element-block-botton{
+    padding-top: 100%;
   }
 }
 

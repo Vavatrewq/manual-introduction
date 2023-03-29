@@ -1,6 +1,7 @@
 *{
   padding: 0px;
   margin: 0px;
+  font-size: 100%;
 }
 
 .body-left{
@@ -31,14 +32,14 @@
 
 .title-text{
   color: #ffff;
-  font-size:200%;
+  font-size: 200%;
   text-align: center;
   margin-top: 500px;
   max-width: 300px;
 }
 
 .space-top{
-  margin-top: 50px;
+  margin-top: auto;
 }
 
 .show-text-start{
@@ -48,7 +49,6 @@
 .show-text{
   text-align: center;
   color: #000000;
-  margin-top: 50px;
 }
 
 .img_book,.title-text{
@@ -56,17 +56,12 @@
   height: 15rem;
 }
 
-.logo_fap{
-  margin-top: 30px;
-}
-
 .logo_fap-top{
   display: none;
 }
 
 .student-authors{
-  display: grid;
-  grid-template: auto auto auto / auto auto;
+  display: flex;
 }
 
 li{

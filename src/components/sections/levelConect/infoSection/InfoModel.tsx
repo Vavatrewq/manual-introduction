@@ -9,8 +9,10 @@ import {
 import 'src/css/leave.css'
 import 'src/css/leaveResponsive.css'
 import TypeModel from 'src/types/infoModel'
+import { Home } from 'src/components/home/Home'
 
 export function InfoModel(Props: TypeModel): JSX.Element {
+  const [useHome, setHome] = useState(false)
   const [infoPageStart, setInfopageStart] = useState(false)
   const [infoPageSecond, setInfopageSecond] = useState(false)
   const [infoPageThird, setInfopageThird] = useState(false)
@@ -21,6 +23,8 @@ export function InfoModel(Props: TypeModel): JSX.Element {
 
   if (infoPageThird) return <FinishLevel />
 
+  if (useHome) return <Home />
+
   return (
     <>
       <section className="body-left">
@@ -28,20 +32,26 @@ export function InfoModel(Props: TypeModel): JSX.Element {
           <span className="block-page"></span>
         </div>
 
-        <div className="body-content">
+        <div className="body-content space-top">
           <div className="element-circleTwo">
             <span className="circle-page"></span>
           </div>
           <div className="element-circleOne">
             <span className="circle-page"></span>
           </div>
-
-          <img className="logo_fap-top" src={icon_fap} alt="logo_fap" />
+          <a href="#">
+            <img
+              onClick={() => setHome(true)}
+              className="logo_fap-top"
+              src={icon_fap}
+              alt="logo_fap"
+            />
+          </a>
 
           <img className="img_book" src={Props.icon_book} alt="img_book" />
           <h1 className="title-text">{Props.title_text}</h1>
+          <p className="show-text-start">{Props.opening}</p>
         </div>
-        <p className="show-text-start">{Props.opening}</p>
 
         <div className="element-block-botton">
           <span className="block-page"></span>
@@ -50,7 +60,14 @@ export function InfoModel(Props: TypeModel): JSX.Element {
 
       <section className="body-right">
         <div className="show-content">
-          <img className="logo_fap space-top" src={icon_fap} alt="logo_fap" />
+          <a href="#">
+            <img
+              onClick={() => setHome(true)}
+              className="logo_fap space-top"
+              src={icon_fap}
+              alt="logo_fap"
+            />
+          </a>
 
           <p className="show-text space-top">{Props.opening}</p>
 

@@ -3,18 +3,28 @@ import 'src/css/infoPage.css'
 import 'src/css/button.css'
 import 'src/css/leave.css'
 import TypeSection from 'src/types/infoSection'
+import { Home } from 'src/components/home/Home'
 
 export function InfoSection(Props: TypeSection): JSX.Element {
+  const [useHome, setHome] = useState(false)
   const [infoAfter, setAfter] = useState(false)
   const [infoBefore, setBefore] = useState(false)
 
   if (infoBefore) return Props.before
   if (infoAfter) return Props.after
+  if (useHome) return <Home />
 
   return (
     <>
       <header>
-        <img className="typeLogo-fap" src={Props.fap_logo} alt="logo-fap" />
+        <a href="#">
+          <img
+            onClick={() => setHome(true)}
+            className="typeLogo-fap"
+            src={Props.fap_logo}
+            alt="logo-fap"
+          />
+        </a>
         <h1 className="title-page">{Props.level}</h1>
       </header>
 
