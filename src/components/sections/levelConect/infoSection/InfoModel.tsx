@@ -102,22 +102,22 @@ export function InfoModel(Props: TypeModel): JSX.Element {
             <h2>Criadores:</h2>
             <ul className="student-authors">
               <li>
-                <FcGraduationCap /> Name: Maycon (Roterista, Fotógrafo)
+                <FcGraduationCap /> Name: Maycon (Roterista)
               </li>
               <li>
-                <FcGraduationCap /> Name: Patrick (Roterista, Fotógrafo)
+                <FcGraduationCap /> Name: Patrick (Roterista)
               </li>
               <li>
-                <FcGraduationCap /> Name: Felipe (Roterista, Fotógrafo)
+                <FcGraduationCap /> Name: Felipe (Roterista)
               </li>
               <li>
-                <FcGraduationCap /> Name: Odilon (Roterista, Fotógrafo)
+                <FcGraduationCap /> Name: Odilon (Roterista)
               </li>
               <li>
                 <FcGraduationCap /> Name: Wagner (Desenvolvedor, Design)
               </li>
               <li>
-                <FcGraduationCap /> Name: João (Roterista, Fotógrafo)
+                <FcGraduationCap /> Name: João (Roterista)
               </li>
             </ul>
           </div>
