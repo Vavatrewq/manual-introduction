@@ -26,6 +26,15 @@ button{
   transition: 300ms;
 }
 
+h2{
+  color:#025987;
+  font-size: large;
+}
+
+.contents{
+  padding: 10px;
+}
+
 .infoPage:hover{
   box-shadow: 0px 0px 0px 1px #0080C3;
 }

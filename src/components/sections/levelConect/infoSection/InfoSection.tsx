@@ -25,25 +25,37 @@ export function InfoSection(Props: TypeSection): JSX.Element {
             alt="logo-fap"
           />
         </a>
-        <h1 className="title-page">{Props.level}</h1>
+        <h2 className="contents title-page">{Props.level}</h2>
       </header>
 
       <div className="content-info">
         <section className="infoPage">
           <img className="show-img" src={Props.generic_img} alt="info_first" />
-          <p>{Props.text_rest[0]}</p>
+          <div className="contents">
+            <h2>{Props.title_second[0]}</h2>
+            <p>{Props.text_rest[0]}</p>
+          </div>
         </section>
         <section className="infoPage">
           <img className="show-img" src={Props.generic_img} alt="info_first" />
-          <p>{Props.text_rest[1]}</p>
+          <div className="contents">
+            <h2>{Props.title_second[1]}</h2>
+            <p>{Props.text_rest[1]}</p>
+          </div>
         </section>
         <section className="infoPage">
           <img className="show-img" src={Props.generic_img} alt="info_first" />
-          <p>{Props.text_rest[2]}</p>
+          <div className="contents">
+            <h2>{Props.title_second[2]}</h2>
+            <p>{Props.text_rest[2]}</p>
+          </div>
         </section>
         <section className="infoPage">
           <img className="show-img" src={Props.generic_img} alt="info_first" />
-          <p>{Props.text_rest[3]}</p>
+          <div className="contents">
+            <h2>{Props.title_second[3]}</h2>
+            <p>{Props.text_rest[3]}</p>
+          </div>
         </section>
       </div>
       <div className="btn-page">

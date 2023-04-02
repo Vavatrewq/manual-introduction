@@ -6,4 +6,5 @@ export default interface TypeSection {
   generic_img: string
   video: string
   text_rest: string[]
+  title_second: string[]
 }
