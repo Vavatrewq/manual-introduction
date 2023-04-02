@@ -17,7 +17,7 @@ export function InfoBetweenFirst(): JSX.Element {
       generic_img={Generic_img}
       video={Curto}
       text_rest={[
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil fugit recusandae quae iure praesentium veniam voluptatum minus dolorem quidem unde, in nisi facilis ducimus, natus nostrum laudantium ab quas eos?',
+        'Lorem ipsum dolor sit amet consectetur adipisic awdading elit. Nihil fugit recusandae quae iure praesentium veniam voluptatum minus dolorem quidem unde, in nisi facilis ducimus, natus nostrum laudantium ab quas eos?',
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil fugit recusandae quae iure praesentium veniam voluptatum minus dolorem quidem unde, in nisi facilis ducimus, natus nostrum laudantium ab quas eos?',
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil fugit recusandae quae iure praesentium veniam voluptatum minus dolorem quidem unde, in nisi facilis ducimus, natus nostrum laudantium ab quas eos?',
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil fugit recusandae quae iure praesentium veniam voluptatum minus dolorem quidem unde, in nisi facilis ducimus, natus nostrum laudantium ab quas eos?',

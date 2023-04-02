@@ -45,12 +45,6 @@ export function InfoSection(Props: TypeSection): JSX.Element {
           <img className="show-img" src={Props.generic_img} alt="info_first" />
           <p>{Props.text_rest[3]}</p>
         </section>
-        <section className="infoPage">
-          <video className="show-img" controls>
-            <source src={Props.video} type="video/mp4" />
-            <p>Página de video não carregada.</p>
-          </video>
-        </section>
       </div>
       <div className="btn-page">
         <a href="#" className="btn" onClick={() => setBefore(true)}>
