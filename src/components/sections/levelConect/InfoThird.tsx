@@ -1,7 +1,6 @@
 import icon_win from 'src/assets/icons/trophy.png'
 import Fap_logo from 'src/assets/icons/fap-logo.png'
 import Generic_img from 'src/assets/img/Screen_Shot3.webp'
-import Curto from 'src/assets/video/curtos.mp4'
 
 import { Home } from 'src/components/home/Home'
 import { InfoSection } from './infoSection/InfoSection'
@@ -15,7 +14,6 @@ export function InfoThirdFirst(): JSX.Element {
       fap_logo={Fap_logo}
       level="Introdução Avançado - Criando uma Conta e Baixar Aplicativos na Play Store."
       generic_img={Generic_img}
-      video={Curto}
       title_second={[
         'Para criar uma conta na Play Store é preciso:',
         'Para baixar um aplicativo do google:',
@@ -40,7 +38,6 @@ export function InfoThirdSecond(): JSX.Element {
       fap_logo={Fap_logo}
       level="Introdução Avançado - Criando uma Conta e Baixar Aplicativos na Play Store."
       generic_img={Generic_img}
-      video={Curto}
       title_second={[
         'Para criar uma conta na Play Store é preciso:',
         'Para baixar um aplicativo do google:',
@@ -65,7 +62,6 @@ export function InfoThirdThird(): JSX.Element {
       fap_logo={Fap_logo}
       level="Introdução Avançado - Criando uma Conta e Baixar Aplicativos na Play Store."
       generic_img={Generic_img}
-      video={Curto}
       title_second={[
         'Para criar uma conta na Play Store é preciso:',
         'Para baixar um aplicativo do google:',
@@ -90,7 +86,6 @@ export function InfoThirdFourth(): JSX.Element {
       fap_logo={Fap_logo}
       level="Introdução Avançado - Criando uma Conta e Baixar Aplicativos na Play Store."
       generic_img={Generic_img}
-      video={Curto}
       title_second={[
         'Para criar uma conta na Play Store é preciso:',
         'Para baixar um aplicativo do google:',
@@ -115,7 +110,6 @@ export function InfoThirdFifth(): JSX.Element {
       fap_logo={Fap_logo}
       level="Introdução Avançado - Criando uma Conta e Baixar Aplicativos na Play Store."
       generic_img={Generic_img}
-      video={Curto}
       title_second={[
         'Para criar uma conta na Play Store é preciso:',
         'Para baixar um aplicativo do google:',
