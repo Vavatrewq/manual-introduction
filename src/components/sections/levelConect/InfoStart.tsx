@@ -125,7 +125,7 @@ export function InfoStartFinished(): JSX.Element {
     <InfoModel
       icon_book={icon_win}
       title_text="Parabéns Você Finalizou o Manual Inicial do Smartphone."
-      opening="Nossas opções estarão disponíveis mesmo que você termina (Iniciante, Intermediário, Avançado), de Práticas Básicas Do Smartphone - Manual"
+      opening="Nossas opções estarão disponíveis mesmo que você termina (Iniciante e Intermediário), de Práticas Básicas Do Smartphone - Manual"
     />
   )
 }

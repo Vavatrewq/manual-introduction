@@ -54,6 +54,10 @@
   background-image: url(../assets/icons/ability.png);
 }
 
+.app-del{
+  display: none;
+}
+
 .show-btn, p{
   display: flex;
   margin: auto;

@@ -123,6 +123,10 @@
   .element-block-botton{
     padding-top: 20%;
   }
+
+  .title-text{
+    font-size: 150%;
+  }
 }
 
 @media only screen and (max-height:900px) {

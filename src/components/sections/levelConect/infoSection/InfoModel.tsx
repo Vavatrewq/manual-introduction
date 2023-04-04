@@ -88,14 +88,16 @@ export function InfoModel(Props: TypeModel): JSX.Element {
               ></a>
               Intermediário
             </p>
-            <p className="box-btn">
-              <a
-                href="#"
-                className="btn-third btn-circle"
-                onClick={() => setInfopageThird(true)}
-              ></a>
-              Avançado
-            </p>
+            <div className=" app-del">
+              <p className="box-btn">
+                <a
+                  href="#"
+                  className="btn-third btn-circle"
+                  onClick={() => setInfopageThird(true)}
+                ></a>
+                Avançado
+              </p>
+            </div>
           </div>
 
           <div className="space-top">
