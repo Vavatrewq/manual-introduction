@@ -43,6 +43,7 @@ h2{
 .show-img{
   width: 100%;
   transition: 500ms;
+  border-radius: 5%;
 }
 
 

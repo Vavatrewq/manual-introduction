@@ -28,7 +28,8 @@
     float: none;
   }
 
-  .body-right, .show-content{
+  .body-right, .show-content, .show-btn{
+    margin: auto;
     width: 100%;
     height: auto;
   }
@@ -59,7 +60,8 @@
   }
 
   .logo_fap-top{
-    display: block;
+    display: flex;
+    width: 100%;
   }
 
   .logo_fap{
@@ -139,7 +141,7 @@
 
 @media only screen and (max-height:600px) {
   .logo_fap-top{
-    margin: 200px 0px 30px 0px;
+    margin: 100% 0px 0px 0px;
   }
 
   .element-block-botton{

@@ -56,6 +56,7 @@
 
 .show-btn, p{
   display: flex;
+  margin: auto;
   justify-content: center;
   align-items: center;
   width: 100%;
