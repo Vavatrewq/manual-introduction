@@ -8,19 +8,20 @@ button{
 
 .title-page{
   text-align: center;
-  margin: 50px 0px 0px 0px;
+  font-size: 25px;
 }
 
 .content-info, .infoPage{
   display: grid;
-  grid-template: auto auto / auto auto;
+  grid-template: auto / auto auto;
 }
 
 .infoPage{
+  font-size: 150%;
   box-sizing: border-box;
   border-radius: 10px;
   box-shadow: 5px 5px 0px 5px #0080C3;
-  max-width: 650px;
+  max-width: auto;
   margin: 50px 10px 10px 10px;
   padding: 10px;
   transition: 300ms;

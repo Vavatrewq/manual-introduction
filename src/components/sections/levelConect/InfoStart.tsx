@@ -14,17 +14,11 @@ export function InfoStartFirst(): JSX.Element {
       fap_logo={Fap_logo}
       level="Introdução Iniciante - Criando uma Conta e Baixar Aplicativos na Play Store."
       generic_img={Generic_img}
-      title_second={[
-        'Para criar uma conta na Play Store é preciso:',
-        'Para baixar um aplicativo do google:',
-        'Desistalando um aplicativo:',
-        'Acessando modo desenvolvedor do aplicativo:',
-      ]}
+      title_second={['Cuidados básicos e necessários do seu celular:']}
       text_rest={[
-        'A música (do grego μουσική τέχνη - musiké téchne, a arte das musas) é uma forma de arte que se constitui na combinação de vários sons e ritmos, seguindo uma pré-organização ao longo do tempo. É considerada por diversos autores como uma prática cultural e humana. Wikipedia',
-        'A música (do grego μουσική τέχνη - musiké téchne, a arte das musas) é uma forma de arte que se constitui na combinação de vários sons e ritmos, seguindo uma pré-organização ao longo do tempo. É considerada por diversos autores como uma prática cultural e humana. Wikipedia',
-        'A música (do grego μουσική τέχνη - musiké téchne, a arte das musas) é uma forma de arte que se constitui na combinação de vários sons e ritmos, seguindo uma pré-organização ao longo do tempo. É considerada por diversos autores como uma prática cultural e humana. Wikipedia',
-        'A música (do grego μουσική τέχνη - musiké téchne, a arte das musas) é uma forma de arte que se constitui na combinação de vários sons e ritmos, seguindo uma pré-organização ao longo do tempo. É considerada por diversos autores como uma prática cultural e humana. Wikipedia',
+        ' Irei mostrar os cuidados que você deverá ter com seu novo aparelho celular, para ele não danificar e durar mais tempo.',
+        ' Recomendado usar uma capinha protetora para caso você derrube ele não danificar e também uma película para maior proteção da tela do seu dispositivo.',
+        ' Sempre que colocado pra carregar evitar colocar em cima de cobertores e lugares quentes para não utilizar ele enquanto carrega, esses são alguns cuidados básicos para deve ter com seu dispositivo.',
       ]}
     />
   )

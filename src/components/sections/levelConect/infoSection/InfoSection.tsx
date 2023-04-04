@@ -32,29 +32,20 @@ export function InfoSection(Props: TypeSection): JSX.Element {
         <section className="infoPage">
           <img className="show-img" src={Props.generic_img} alt="info_first" />
           <div className="contents">
-            <h2>{Props.title_second[0]}</h2>
-            <p>{Props.text_rest[0]}</p>
-          </div>
-        </section>
-        <section className="infoPage">
-          <img className="show-img" src={Props.generic_img} alt="info_first" />
-          <div className="contents">
-            <h2>{Props.title_second[1]}</h2>
-            <p>{Props.text_rest[1]}</p>
-          </div>
-        </section>
-        <section className="infoPage">
-          <img className="show-img" src={Props.generic_img} alt="info_first" />
-          <div className="contents">
-            <h2>{Props.title_second[2]}</h2>
-            <p>{Props.text_rest[2]}</p>
-          </div>
-        </section>
-        <section className="infoPage">
-          <img className="show-img" src={Props.generic_img} alt="info_first" />
-          <div className="contents">
-            <h2>{Props.title_second[3]}</h2>
-            <p>{Props.text_rest[3]}</p>
+            <h2 className="title-page">{Props.title_second}</h2>
+            <br />
+            <p>
+              {Props.text_rest[0]}
+              <br />
+              <br />
+              {Props.text_rest[1]}
+              <br />
+              <br />
+              {Props.text_rest[2]}
+              <br />
+              <br />
+              {Props.text_rest[3]}
+            </p>
           </div>
         </section>
       </div>
