@@ -21,10 +21,10 @@
 
 <br><p>Funcionalidades:</p>
 
-![Function](https://github.com/Vavatrewq/Pomodoro-App/blob/master/src/gifs/AnimaçãoFunc1.gif)
+![Function](https://github.com/Vavatrewq/manual-introduction/blob/master/src/assets/gif/smartphone-manual.gif)
 
 <p>Responsividade:</p>
   
-![resposive](https://github.com/Vavatrewq/Pomodoro-App/blob/master/src/gifs/AnimaçãoFunc2.gif)
+![resposive](https://github.com/Vavatrewq/manual-introduction/blob/master/src/assets/gif/responsive-smart.gif)
  
  <p align="center">2022 | Wagner De Souza Mendes | DEV 🫡</p>
