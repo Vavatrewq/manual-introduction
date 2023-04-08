@@ -47,6 +47,7 @@ export function InfoSection(Props: TypeSection): JSX.Element {
               {Props.text_rest[3]}
             </p>
           </div>
+          <br />
         </section>
       </div>
       <div className="btn-page">
