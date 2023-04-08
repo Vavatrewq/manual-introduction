@@ -1,6 +1,6 @@
 import icon_win from 'src/assets/icons/trophy.png'
 import Fap_logo from 'src/assets/icons/fap-logo.png'
-import Generic_img from 'src/assets/img/Screen_Shot3.webp'
+import Generic_img from 'src/assets/img/phone-off.jpg'
 
 import { Home } from 'src/components/home/Home'
 import { InfoSection } from './infoSection/InfoSection'
