@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import icon_fap from 'src/assets/icons/fap-logo.png'
 import { FcGraduationCap } from 'react-icons/fc'
+import { BsGithub } from 'react-icons/bs'
 import {
   StartLevel,
   QuiteLevel,
@@ -49,7 +50,15 @@ export function InfoModel(Props: TypeModel): JSX.Element {
           </a>
 
           <img className="img_book" src={Props.icon_book} alt="img_book" />
-          <h1 className="title-text">{Props.title_text}</h1>
+          <h1 className="title-text">
+            {Props.title_text} <br />
+            <a
+              href="https://github.com/Vavatrewq/manual-introduction.git"
+              target="_black"
+            >
+              <BsGithub className="github" />
+            </a>
+          </h1>
           <p className="show-text-start">{Props.opening}</p>
         </div>
 

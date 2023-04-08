@@ -23,7 +23,7 @@ export function InfoStartFirst(): JSX.Element {
       text_rest={[
         ' Sobre seu dispositivo encontra vai sobre uma lupa de pesquisa, localizado no canto superior do dispositivo e então pesquisa sobre relógio, e clica sobre o app.',
         ' Depois clicado no app acessa as opções de alarme e configura, por qual horário desejar aplicar.',
-        'Por isso é tudo tí vejo no próximo tópico! 🫠',
+        'Por isso é tudo! Te vejo no próximo tópico. 🫠',
       ]}
     />
   )

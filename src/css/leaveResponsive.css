@@ -1,4 +1,4 @@
-@media only screen and (max-width:1330px) {
+@media only screen and (max-width:1350px) {
   .block-page{
     padding: 50px;
   }
@@ -123,15 +123,11 @@
   .element-block-botton{
     padding-top: 20%;
   }
-
-  .title-text{
-    font-size: 150%;
-  }
 }
 
 @media only screen and (max-height:900px) {
   .img_book{
-    height: 40%;
+    height: 30%;
   }
 
   .show-text-start{
@@ -139,7 +135,7 @@
   }
 
   .element-block-botton{
-    padding-top: 20%;
+    padding-top: 30%;
   }
 }
 

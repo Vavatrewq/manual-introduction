@@ -9,6 +9,20 @@
   font-size: 98%;
 }
 
+.github{
+  width: 40px;
+  height: 40px;
+  transition: 300ms;
+  border-radius: 50%;
+}
+
+.github:hover{
+  color: #000000;
+  width: 50px;
+  height: 50px;
+
+}
+
 .body-left{
   display: flex;
   flex-direction: column;
@@ -37,7 +51,7 @@
 
 .title-text{
   color: #ffff;
-  font-size: 200%;
+  font-size: 150%;
   text-align: center;
   margin-top: 500px;
   max-width: 300px;
