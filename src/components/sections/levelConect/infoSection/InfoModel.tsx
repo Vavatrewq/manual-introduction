@@ -2,11 +2,7 @@ import { useState } from 'react'
 import icon_fap from 'src/assets/icons/fap-logo.png'
 import { FcGraduationCap } from 'react-icons/fc'
 import { BsGithub } from 'react-icons/bs'
-import {
-  StartLevel,
-  QuiteLevel,
-  FinishLevel,
-} from 'src/components/sections/InfoPage'
+import { StartLevel } from 'src/components/sections/InfoPage'
 import 'src/css/leave.css'
 import 'src/css/leaveResponsive.css'
 import TypeModel from 'src/types/infoModel'
@@ -15,14 +11,8 @@ import { Home } from 'src/components/home/Home'
 export function InfoModel(Props: TypeModel): JSX.Element {
   const [useHome, setHome] = useState(false)
   const [infoPageStart, setInfopageStart] = useState(false)
-  const [infoPageSecond, setInfopageSecond] = useState(false)
-  const [infoPageThird, setInfopageThird] = useState(false)
 
   if (infoPageStart) return <StartLevel />
-
-  if (infoPageSecond) return <QuiteLevel />
-
-  if (infoPageThird) return <FinishLevel />
 
   if (useHome) return <Home />
 
@@ -89,24 +79,6 @@ export function InfoModel(Props: TypeModel): JSX.Element {
               ></a>
               Iniciante
             </p>
-            <p className="box-btn">
-              <a
-                href="#"
-                className="btn-between btn-circle"
-                onClick={() => setInfopageSecond(true)}
-              ></a>
-              Intermediário
-            </p>
-            <div className=" app-del">
-              <p className="box-btn">
-                <a
-                  href="#"
-                  className="btn-third btn-circle"
-                  onClick={() => setInfopageThird(true)}
-                ></a>
-                Avançado
-              </p>
-            </div>
           </div>
 
           <div className="space-top">
