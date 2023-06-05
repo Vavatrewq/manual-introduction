@@ -2,6 +2,10 @@ import icon_win from 'src/assets/icons/trophy.png'
 import Fap_logo from 'src/assets/icons/fap-logo.png'
 
 import Phone_alarm from 'src/assets/img/beginner/phone-alarm.jpg'
+import Create_email from 'src/assets/img/beginner/create-email.png'
+import Phone_background from 'src/assets/img/beginner/phone-background.jpg'
+import Hors_date from 'src/assets/img/beginner/phone-date_hors.jpg'
+import Off_phone from 'src/assets/img/beginner/phone-off.jpg'
 
 import { Home } from 'src/components/home/Home'
 import { InfoSection } from './infoSection/InfoSection'
@@ -16,10 +20,10 @@ export function InfoStartFirst(): JSX.Element {
       level="Iniciante - Como configurar o despertador no celular. 📱"
       generic_img={[
         Phone_alarm,
-        Phone_alarm,
-        Phone_alarm,
-        Phone_alarm,
-        Phone_alarm,
+        Create_email,
+        Phone_background,
+        Hors_date,
+        Off_phone,
       ]}
       title_second={[
         'Como configurar o despertador no celular:',
