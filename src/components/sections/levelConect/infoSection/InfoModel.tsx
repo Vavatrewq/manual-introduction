@@ -77,7 +77,7 @@ export function InfoModel(Props: TypeModel): JSX.Element {
                 className="btn-start btn-circle"
                 onClick={() => setInfopageStart(true)}
               ></a>
-              Iniciante
+              Começar
             </p>
           </div>
 

@@ -79,7 +79,8 @@ export function InfoStartThird(): JSX.Element {
   return (
     <InfoSection
       before={<InfoStartSecond />}
-      after={<InfoStartFourth />}
+      //after={<InfoStartFourth />}
+      after={<InfoStartFinished />}
       fap_logo={Fap_logo}
       level="Como trocar o wallpaper no iPhone - Retirado de: iPhone 11, iOS 16 - Criado por João📱"
       generic_img={[
@@ -202,8 +203,8 @@ export function InfoStartFinished(): JSX.Element {
   return (
     <InfoModel
       icon_book={icon_win}
-      title_text="Parabéns Você Finalizou o Manual Inicial do Smartphone. 🚀"
-      opening="Nossas opções estarão disponíveis mesmo que você termina (Iniciante e Intermediário), de Práticas Básicas Do Smartphone - Manual"
+      title_text="Parabéns Você Finalizou o Smartphone - Manual. 🚀"
+      opening="Nossas opções estão disponíveis mesmo que você termina a aprendizagem, espero que nosso projeto foi util para você. Agradeço pela sua atenção."
     />
   )
 }

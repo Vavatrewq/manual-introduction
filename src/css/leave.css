@@ -51,7 +51,7 @@
 
 .title-text{
   color: #ffff;
-  font-size: 150%;
+  font-size: 200%;
   text-align: center;
   margin-top: 500px;
   max-width: 300px;
@@ -69,6 +69,7 @@
 .show-text{
   text-align: center;
   color: #000000;
+  font-size: 150%;
 }
 
 .img_book{

@@ -73,6 +73,7 @@
 /*Tag - Links*/
 
 a{
+  padding: 10px;
   text-decoration: none;
   color: #000000;
   transition: 300ms;

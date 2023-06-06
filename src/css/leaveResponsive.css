@@ -11,12 +11,6 @@
     display: grid;
     grid-template: auto auto / auto auto auto;
   }
-
-  .btn-circle{
-    height: 50px;
-    width: 50px;
-  }
-
 }
 
 @media only screen and (max-width:750px) {
