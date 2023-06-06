@@ -5,7 +5,6 @@ import Email_phoneFirst from 'src/assets/img/beginner/sectionFirst/email-phoneFi
 import Email_phoneSecond from 'src/assets/img/beginner/sectionFirst/email-phoneSecond.jpg'
 import Email_phoneThird from 'src/assets/img/beginner/sectionFirst/email-phoneThird.jpg'
 import Email_phoneFourth from 'src/assets/img/beginner/sectionFirst/email-phoneFourth.jpg'
-import Email_phoneFifth from 'src/assets/img/beginner/sectionFirst/email-phoneFifth.jpg'
 
 import Wifi_phoneFirst from 'src/assets/img/beginner/sectionSecond/wifi-phoneFirst.jpg'
 import Wifi_phoneSecond from 'src/assets/img/beginner/sectionSecond/wifi-phoneSecond.jpg'
@@ -30,7 +29,6 @@ export function InfoStartFirst(): JSX.Element {
         Email_phoneSecond,
         Email_phoneThird,
         Email_phoneFourth,
-        Email_phoneFifth,
       ]}
       title_second={['1° passo:', '2° passo:', '3° passo:', '4° passo:']}
       text_rest={{
@@ -59,7 +57,7 @@ export function InfoStartSecond(): JSX.Element {
       before={<InfoStartFirst />}
       after={<InfoStartThird />}
       fap_logo={Fap_logo}
-      level="Como se conectar no Wi-Fi no Samsung S20 - Criado por Felipe 📱"
+      level="Como se conectar no Wi-Fi no Samsung S20 Android 9 - Criado por Felipe 📱"
       generic_img={[Wifi_phoneFirst, Wifi_phoneSecond]}
       title_second={['1° passo', '2° passo']}
       text_rest={{
