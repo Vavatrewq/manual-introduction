@@ -13,6 +13,20 @@ import wallpaper_phoneFirst from 'src/assets/img/beginner/sectionThird/wallpaper
 import wallpaper_phoneSecond from 'src/assets/img/beginner/sectionThird/wallpaper-phoneSecond.png'
 import wallpaper_phoneThird from 'src/assets/img/beginner/sectionThird/wallpaper-phoneThird.png'
 
+import Install_appFirst from 'src/assets/img/beginner/sectionFourth/install-appFirst.png'
+import Install_appSecond from 'src/assets/img/beginner/sectionFourth/install-appSecond.png'
+import Install_appThird from 'src/assets/img/beginner/sectionFourth/install-appThird.png'
+import Install_appFourth from 'src/assets/img/beginner/sectionFourth/install-appFourth.png'
+
+import Section_configFirst from 'src/assets/img/beginner/sectionFifth/section-confingFirst.jpeg'
+import Section_configSecond from 'src/assets/img/beginner/sectionFifth/section-confingSecond.jpeg'
+import Section_configThird from 'src/assets/img/beginner/sectionFifth/section-confingThird.jpeg'
+import Section_configFourth from 'src/assets/img/beginner/sectionFifth/section-confingFourth.jpeg'
+
+import Pass_configFirst from 'src/assets/img/beginner/sectionSixth/password-ConfigFirst.jpeg'
+import Pass_configSecond from 'src/assets/img/beginner/sectionSixth/password-ConfigSecond.jpeg'
+import Pass_configThird from 'src/assets/img/beginner/sectionSixth/password-ConfigThird.jpeg'
+
 import { Home } from 'src/components/home/Home'
 import { InfoSection } from './infoSection/InfoSection'
 import { InfoModel } from './infoSection/InfoModel'
@@ -77,8 +91,7 @@ export function InfoStartThird(): JSX.Element {
   return (
     <InfoSection
       before={<InfoStartSecond />}
-      //after={<InfoStartFourth />}
-      after={<InfoStartFinished />}
+      after={<InfoStartFourth />}
       fap_logo={Fap_logo}
       level="Como trocar o wallpaper no iPhone - Retirado de: iPhone 11, iOS 16 - Criado por João📱"
       generic_img={[
@@ -109,41 +122,31 @@ export function InfoStartFourth(): JSX.Element {
       before={<InfoStartThird />}
       after={<InfoStartFifth />}
       fap_logo={Fap_logo}
-      level="Iniciante - Como configurar o despertador no celular. 📱"
+      level="Como instalar um aplicativo da Player Store - Criado por Odilon Android 11 - Moto E20 📱"
       generic_img={[
-        Phone_alarm,
-        Phone_alarm,
-        Phone_alarm,
-        Phone_alarm,
-        Phone_alarm,
+        Install_appFirst,
+        Install_appSecond,
+        Install_appThird,
+        Install_appFourth,
       ]}
       title_second={[
-        'Como configurar o despertador no celular:',
-        'Como configurar o despertador no celular:',
-        'Como configurar o despertador no celular:',
-        'Como configurar o despertador no celular:',
-        'Como configurar o despertador no celular:',
+        '1° passo',
+        '2° passo',
+        '3° passo',
+        '4° passo',
       ]}
       text_rest={{
         fistSection: [
-          'Para ligar e desligar seu smartphone, encontra o botão power do seu smartphone localizado muitas vezes na lateral do celular. 🤔',
-          'E para tirar print mantenha precionado os dois botões de power e também o botão de volume baixo, segurando os dois ira tirar print do seu celular. 🖋️',
+          '>> Clica no aplicativo da Player Store',
         ],
         secondSection: [
-          'Para ligar e desligar seu smartphone, encontra o botão power do seu smartphone localizado muitas vezes na lateral do celular. 🤔',
-          'E para tirar print mantenha precionado os dois botões de power e também o botão de volume baixo, segurando os dois ira tirar print do seu celular. 🖋️',
+          '>> Clica na barra superior onde está escrito pesquisa apps e jogos',
         ],
         thirdSection: [
-          'Para ligar e desligar seu smartphone, encontra o botão power do seu smartphone localizado muitas vezes na lateral do celular. 🤔',
-          'E para tirar print mantenha precionado os dois botões de power e também o botão de volume baixo, segurando os dois ira tirar print do seu celular. 🖋️',
+          '>> Um exemplo que usaremos será o Facebook, digite o nome do aplicativo em que desejar e clicar na lupa em verde que está no teclado.',
         ],
         fourthSection: [
-          'Para ligar e desligar seu smartphone, encontra o botão power do seu smartphone localizado muitas vezes na lateral do celular. 🤔',
-          'E para tirar print mantenha precionado os dois botões de power e também o botão de volume baixo, segurando os dois ira tirar print do seu celular. 🖋️',
-        ],
-        fifthSection: [
-          'Para ligar e desligar seu smartphone, encontra o botão power do seu smartphone localizado muitas vezes na lateral do celular. 🤔',
-          'E para tirar print mantenha precionado os dois botões de power e também o botão de volume baixo, segurando os dois ira tirar print do seu celular. 🖋️',
+          '>> Clique em instalar e logo após a instalação aperte em abrir',
         ],
       }}
     />
@@ -154,43 +157,65 @@ export function InfoStartFifth(): JSX.Element {
   return (
     <InfoSection
       before={<InfoStartFourth />}
-      after={<InfoStartFinished />}
+      after={<InfoStartSixth />}
       fap_logo={Fap_logo}
-      level="Iniciante - Como configurar o despertador no celular. 📱"
+      level="Como mudar toque do Celular (ligação) - (Alarme) Patrick - Android 9 📱"
       generic_img={[
-        Phone_alarm,
-        Phone_alarm,
-        Phone_alarm,
-        Phone_alarm,
-        Phone_alarm,
+        Section_configFirst,
+        Section_configSecond,
+        Section_configThird,
+        Section_configFourth,
       ]}
       title_second={[
-        'Como configurar o despertador no celular:',
-        'Como configurar o despertador no celular:',
-        'Como configurar o despertador no celular:',
-        'Como configurar o despertador no celular:',
-        'Como configurar o despertador no celular:',
+        '1° passo',
+        '2° passo',
+        '3° passo',
+        '4° passo',
       ]}
       text_rest={{
         fistSection: [
-          'Para ligar e desligar seu smartphone, encontra o botão power do seu smartphone localizado muitas vezes na lateral do celular. 🤔',
-          'E para tirar print mantenha precionado os dois botões de power e também o botão de volume baixo, segurando os dois ira tirar print do seu celular. 🖋️',
+          'Vai até o aplicativo de Configuração',
         ],
         secondSection: [
-          'Para ligar e desligar seu smartphone, encontra o botão power do seu smartphone localizado muitas vezes na lateral do celular. 🤔',
-          'E para tirar print mantenha precionado os dois botões de power e também o botão de volume baixo, segurando os dois ira tirar print do seu celular. 🖋️',
+          'Sobre as configurações encontra a opção de som do dispositivo',
         ],
         thirdSection: [
-          'Para ligar e desligar seu smartphone, encontra o botão power do seu smartphone localizado muitas vezes na lateral do celular. 🤔',
-          'E para tirar print mantenha precionado os dois botões de power e também o botão de volume baixo, segurando os dois ira tirar print do seu celular. 🖋️',
+          'Sobre Som, vai aparecer essa opção Som de alarme padrão',
         ],
         fourthSection: [
-          'Para ligar e desligar seu smartphone, encontra o botão power do seu smartphone localizado muitas vezes na lateral do celular. 🤔',
-          'E para tirar print mantenha precionado os dois botões de power e também o botão de volume baixo, segurando os dois ira tirar print do seu celular. 🖋️',
+          'E também é mesma coisa para alarme, acessa Toque do telefone para alterar seu som de alerta.',
         ],
-        fifthSection: [
-          'Para ligar e desligar seu smartphone, encontra o botão power do seu smartphone localizado muitas vezes na lateral do celular. 🤔',
-          'E para tirar print mantenha precionado os dois botões de power e também o botão de volume baixo, segurando os dois ira tirar print do seu celular. 🖋️',
+      }}
+    />
+  )
+}
+
+export function InfoStartSixth(): JSX.Element {
+  return (
+    <InfoSection
+      before={<InfoStartFifth />}
+      after={<InfoStartFinished />}
+      fap_logo={Fap_logo}
+      level="Como adicionar ou alterar sua senha do Celular - Alan - Android 11 📱"
+      generic_img={[
+        Pass_configFirst,
+        Pass_configSecond,
+        Pass_configThird,
+      ]}
+      title_second={[
+        '1° passo',
+        '2° passo',
+        '3° passo',
+      ]}
+      text_rest={{
+        fistSection: [
+          'Acessa o aplicativo de configuração primeiro',
+        ],
+        secondSection: [
+          'Sobre as configurações encontra a opção de Segurança e local e acessa',
+        ],
+        thirdSection: [
+          'Sobre Segurança e local, aparecera a opção de Bloqueio de tela para alteração e adição de senha.',
         ],
       }}
     />
