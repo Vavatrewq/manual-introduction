@@ -94,7 +94,7 @@ export function InfoModel(Props: TypeModel): JSX.Element {
                 <FcGraduationCap /> Name: Felipe (Roterista)
               </li>
               <li>
-                <FcGraduationCap /> Name: Odilon (Roterista)
+                <FcGraduationCap /> Name: Odilon (Roterista, Idealizador)
               </li>
               <li>
                 <FcGraduationCap /> Name: Wagner (Desenvolvedor, Design)

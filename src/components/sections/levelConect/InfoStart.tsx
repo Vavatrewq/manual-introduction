@@ -129,16 +129,9 @@ export function InfoStartFourth(): JSX.Element {
         Install_appThird,
         Install_appFourth,
       ]}
-      title_second={[
-        '1° passo',
-        '2° passo',
-        '3° passo',
-        '4° passo',
-      ]}
+      title_second={['1° passo', '2° passo', '3° passo', '4° passo']}
       text_rest={{
-        fistSection: [
-          '>> Clica no aplicativo da Player Store',
-        ],
+        fistSection: ['>> Clica no aplicativo da Player Store'],
         secondSection: [
           '>> Clica na barra superior onde está escrito pesquisa apps e jogos',
         ],
@@ -166,16 +159,9 @@ export function InfoStartFifth(): JSX.Element {
         Section_configThird,
         Section_configFourth,
       ]}
-      title_second={[
-        '1° passo',
-        '2° passo',
-        '3° passo',
-        '4° passo',
-      ]}
+      title_second={['1° passo', '2° passo', '3° passo', '4° passo']}
       text_rest={{
-        fistSection: [
-          'Vai até o aplicativo de Configuração',
-        ],
+        fistSection: ['Vai até o aplicativo de Configuração'],
         secondSection: [
           'Sobre as configurações encontra a opção de som do dispositivo',
         ],
@@ -197,20 +183,10 @@ export function InfoStartSixth(): JSX.Element {
       after={<InfoStartFinished />}
       fap_logo={Fap_logo}
       level="Como adicionar ou alterar sua senha do Celular - Alan - Android 11 📱"
-      generic_img={[
-        Pass_configFirst,
-        Pass_configSecond,
-        Pass_configThird,
-      ]}
-      title_second={[
-        '1° passo',
-        '2° passo',
-        '3° passo',
-      ]}
+      generic_img={[Pass_configFirst, Pass_configSecond, Pass_configThird]}
+      title_second={['1° passo', '2° passo', '3° passo']}
       text_rest={{
-        fistSection: [
-          'Acessa o aplicativo de configuração primeiro',
-        ],
+        fistSection: ['Acessa o aplicativo de configuração primeiro'],
         secondSection: [
           'Sobre as configurações encontra a opção de Segurança e local e acessa',
         ],
